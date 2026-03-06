@@ -408,7 +408,7 @@ export default function Home() {
         <div className="footer-grid">
           <div>
             <div className="footer-logo">
-              <img src="/logo.png" alt="Bubblepop" />
+              <img src="/logo.png" alt="Bubblepop" style={{ width: 'clamp(80px, 12vw, 160px)', height: 'auto' }} />
             </div>
             <div className="footer-tagline">{tx.footer.tagline}</div>
           </div>
